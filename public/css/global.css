@@ -1,0 +1,106 @@
+/*
+light peach: eeebe2
+coral: d35b48
+*/
+
+/* GLOBAL STYLES 
+-------------------------------------------------*/
+body#sunny {
+	background-color: #6dcff6;
+	font-family: "Ariel", "Helvetica", "sans-serif";
+	font-size: 24px;
+	color: #fff;
+	position: relative;
+}
+
+body#not-sunny {
+	background-color: #333;
+	font-family: "Ariel", "Helvetica", "sans-serif";
+	font-size: 24px;
+	color: #333;
+	position: relative;
+}
+
+.set-content {
+	margin: 0 auto;
+	width: 940px;
+	position: relative;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 88px; 
+	margin-bottom: 10px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+#sunny #main-content {
+	width: 600px;
+	margin: 0 auto;
+	background-image: url("../img/sun.png");
+	background-repeat: no-repeat;
+	height: 550px;
+	padding: 10px 30px 30px 30px;
+	background-position: top center;
+}
+
+#not-sunny #main-content {
+	width: 600px;
+	margin: 0 auto;
+	background-image: url("../img/clouds.png");
+	background-repeat: no-repeat;
+	height: 366px;
+	padding: 10px 30px 30px 30px;
+	background-position: center;
+}
+
+#sunny #text {
+	margin-top: 170px;
+}
+
+#not-sunny #text {
+	margin-top: 170px;
+}
+
+
+
+
+
+/* FOOTER ----------------------------------------*/
+
+#sunny #footer {
+	height: 123px;
+	background-image: url("../img/flowers.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	}
+	
+#sunny #bottom-bar {
+	height: 30px;
+	background-color: #009245;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+#not-sunny #bottom-bar {
+	height: 30px;
+	background-color: #104774;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+
