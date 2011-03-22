@@ -6,7 +6,9 @@ Isitsunnyinpdx::Application.routes.draw do
   match "/sunny" => "weathers#sunny"
 
   match "/not-sunny" => "weathers#notSunny"
-
+  
+  match "/api-view" => "weathers#api_view"
+ 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

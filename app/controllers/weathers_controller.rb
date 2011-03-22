@@ -19,4 +19,8 @@ class WeathersController < ApplicationController
 	render :template => 'weathers/not-sunny'
   end
  
+ def api_view
+ 	@weather = Weather.connect_to_api
+ 	render :template => 'weathers/api-view'
+ end
 end
