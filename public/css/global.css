@@ -11,13 +11,16 @@ body#sunny {
 	font-size: 24px;
 	color: #fff;
 	position: relative;
+	background-image: url("../img/bg_blue5.png");
+background-repeat: repeat;
 }
 
 body#not-sunny {
-	background-color: #333;
+background-image: url("../img/bg_notsunny.png");
+background-repeat: repeat;
 	font-family: "Ariel", "Helvetica", "sans-serif";
 	font-size: 24px;
-	color: #333;
+	color: #fff;
 	position: relative;
 }
 
@@ -45,18 +48,18 @@ h1, h2 {
 	margin: 0 auto;
 	background-image: url("../img/sun.png");
 	background-repeat: no-repeat;
-	height: 550px;
-	padding: 10px 30px 30px 30px;
+	height: 481px;
+	padding: 30px 30px 30px 30px;
 	background-position: top center;
 }
 
 #not-sunny #main-content {
 	width: 600px;
 	margin: 0 auto;
-	background-image: url("../img/clouds.png");
+	background-image: url("../img/clouds3.png");
 	background-repeat: no-repeat;
-	height: 366px;
-	padding: 10px 30px 30px 30px;
+	height: 364px;
+	padding: 30px 30px 30px 30px;
 	background-position: center;
 }
 
@@ -65,7 +68,7 @@ h1, h2 {
 }
 
 #not-sunny #text {
-	margin-top: 170px;
+	margin-top: 150px;
 }
 
 
@@ -75,19 +78,32 @@ h1, h2 {
 /* FOOTER ----------------------------------------*/
 
 #sunny #footer {
-	height: 123px;
-	background-image: url("../img/flowers.png");
+	height: 299px;
+	background-image: url("../img/trees_green.png");
 	background-position: top center;
 	background-repeat: no-repeat;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	z-index: 9999;
+	}
+	
+#not-sunny #footer {
+	height: 299px;
+	background-image: url("../img/trees_blck.png");
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
 	}
 	
 #sunny #bottom-bar {
 	height: 30px;
-	background-color: #009245;
+	background-color: #078439;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
@@ -96,7 +112,7 @@ h1, h2 {
 
 #not-sunny #bottom-bar {
 	height: 30px;
-	background-color: #104774;
+	background-color: #231f20;
 	width: 100%;
 	position: fixed;
 	bottom: 0;

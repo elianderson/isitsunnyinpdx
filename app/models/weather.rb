@@ -12,6 +12,8 @@ class Weather < ActiveRecord::Base
          verdict = "sunny"
        when 'fair'
          verdict = "sunny"
+       when 'partly cloudy'
+         verdict = "sunny"
        else
           verdict = "cloudy"
        end
